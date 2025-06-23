@@ -40,7 +40,6 @@ void loop() {
       pararAlarme();
     }
     else if (key == 'D') {
-      // Quando aperta D, verifica a senha
       if (inputPassword == password) {
         setLocked(false); 
         pararAlarme();
